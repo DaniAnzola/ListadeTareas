@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="menu"
+        android:icon="@drawable/baseline_add_home_24"/>
+    <item android:id="@+id/Perfil"
+        android:title="Perfil"
+        android:icon="@drawable/baseline_person_4_24"/>
+    <item android:id="@+id/Senal"
+        android:title="Señal"
+        android:icon="@drawable/baseline_perm_data_setting_24"/>
+    <item android:id="@+id/Brillo"
+        android:title="Brillo"
+        android:icon="@drawable/baseline_brightness_low_24" />
+</menu>
