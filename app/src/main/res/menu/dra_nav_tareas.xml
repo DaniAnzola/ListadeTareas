@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showin = "navigation_view">
+
+    <group
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bu_nav_tareas"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cocina"
+            android:icon="@drawable/nav_cocina"
+            android:title="Cocina" />
+        <item
+            android:id="@+id/nav_perro"
+            android:icon="@drawable/nav_perro"
+            android:title="Perro" />
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/nav_compras"
+            android:title="Compras" />
+    </group>
+
+    <item android:title="">
+
+    </item>
+</menu>
