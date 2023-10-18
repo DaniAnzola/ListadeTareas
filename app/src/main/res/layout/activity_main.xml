@@ -9,9 +9,10 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
     tools:context=".MainActivity">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/llnav"
         android:orientation="vertical">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
@@ -24,8 +25,19 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/fragment_container"/>
-    </LinearLayout>
+            android:id="@+id/container"/>
+        <Button
+            android:id="@+id/btnAnadirtarea"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_alignRight="@+id/container"
+            android:layout_alignBottom="@+id/container"
+            android:layout_marginRight="25dp"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+    </RelativeLayout>
+
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -34,5 +46,11 @@
         app:headerLayout="@layout/dra_nav_tareas"
         app:menu="@menu/dra_nav_tareas"
         app:itemIconTint="@color/lavender"
-        app:itemTextColor="@color/lavender"/>
+        app:itemTextColor="@color/lavender">
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
 </androidx.drawerlayout.widget.DrawerLayout>
